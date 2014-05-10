@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<g>
+		<defs>
+			<polyline id="SVGID_1_" points="140,0 140,1880 1294,1880 1294,0 140,0 			"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<defs>
+				<rect id="SVGID_37_" x="140" width="1024" height="100"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_37_"  overflow="visible"/>
+			</clipPath>
+			<rect clip-path="url(#SVGID_4_)" fill="#8DC73F" width="100" height="100"/>
+			<rect x="41.5" clip-path="url(#SVGID_4_)" fill="#8DC73F" width="100" height="100"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<polyline id="SVGID_53_" points="140,0 140,1880 1294,1880 1294,0 140,0 			"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_53_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_6_)">
+			<defs>
+				<rect id="SVGID_89_" x="140" width="1024" height="100"/>
+			</defs>
+			<clipPath id="SVGID_8_">
+				<use xlink:href="#SVGID_89_"  overflow="visible"/>
+			</clipPath>
+			<rect clip-path="url(#SVGID_8_)" fill="#8DC73F" width="100" height="100"/>
+			<rect x="41.5" clip-path="url(#SVGID_8_)" fill="#8DC73F" width="100" height="100"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path fill="#FFFFFF" d="M49.254,45.161h5.107v6.87l-1.401,0.451c-4.474,1.311-6.011,2.667-6.011,4.837
+		c0,1.852,1.355,2.983,3.842,2.983c2.847,0,5.921-1.356,8.542-3.21l0.949,6.329c-2.666,1.807-6.011,3.163-10.486,3.163
+		c-6.372,0-10.078-3.209-10.078-8.678c0-5.242,3.299-8.226,9.536-10.214V45.161z"/>
+	<path fill="#FFFFFF" d="M51.985,41.186c2.132,0,3.852-1.719,3.852-3.851c0-2.131-1.72-3.919-3.852-3.919s-3.919,1.788-3.919,3.919
+		C48.066,39.467,49.854,41.186,51.985,41.186"/>
+</g>
+</svg>
