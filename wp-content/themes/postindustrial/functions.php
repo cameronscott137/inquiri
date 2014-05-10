@@ -16,6 +16,7 @@
 	======================================================================================================================== */
 
 	require_once( 'external/starkers-utilities.php' );
+	//require_once( 'custom-post-types.php' );
 
 	/* ========================================================================================================================
 	
@@ -136,13 +137,6 @@
 	}
 	add_filter( 'excerpt_length', 'rustbuilt_custom_excerpt_length', 999 );
 
-	/* ========================================================================================================================
-	
-	Custom Post Types - include custom post types and taxonimies here e.g.
-
-	e.g. require_once( 'custom-post-types/your-custom-post-type.php' );
-	
-	======================================================================================================================== */
 
 
 
@@ -181,6 +175,23 @@
         /*wp_register_style( 'bootstrap-responsive', get_template_directory_uri().'/css/bootstrap-responsive.css', '', '', 'screen' );
         wp_enqueue_style( 'bootstrap-responsive' ); */
 	}	
+
+		/* Google Fonts */
+	function google_fonts() {
+            wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+            wp_enqueue_style( 'googleFonts');
+        }
+    add_action('wp_print_styles', 'google_fonts');
+
+    /* Load Bootstrap into Admin */
+	function ttv_load_custom_admin() {
+	        wp_register_style( 'custom_wp_admin_css', get_template_directory_uri() . '/admin/admin-medium-style.css', false, '1.0.0' );
+	        wp_enqueue_style( 'custom_wp_admin_css' );
+
+			wp_register_script( 'custom_wp_admin_script', get_template_directory_uri().'/admin/bootstrap.min.js', array( 'jquery' ), false, true );
+			wp_enqueue_script( 'custom_wp_admin_script' );
+	}
+	add_action( 'admin_enqueue_scripts', 'ttv_load_custom_admin' );
 
 	/* ========================================================================================================================
 	
